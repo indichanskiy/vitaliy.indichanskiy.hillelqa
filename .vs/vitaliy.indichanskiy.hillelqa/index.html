@@ -3,32 +3,41 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Indichanskiy Vitaliy</title>
 </head>
-<body>
-    <h1>My HTML page</h1>
-    <h2>Indichanskiy Vitaliy</h2>
-    <p>Hello, my name is Vitaliy Indichanskiy. Im 20 years old and now im learning how to make my own web page with using HTML. Im studying in Hillel IT School. Here is some information about me:</p>
-    <div id="Hobbies">
-        <h2>My hobbies:</h2>
-        <ul>
-            <li>Hunting</li>
-            <li>Playing a guitar</li>
-            <li>Programming</li>
-            <li>Sports (Mixed Martial Arts)</li>
-        </ul>
+<body id="mainbody">
+    <h1 id="mainheader">My HTML page</h1>
+    <h2 id="nameheader">Indichanskiy Vitaliy</h2>
+    <p id="text">Hello, my name is Vitaliy Indichanskiy. Im 20 years old and now im learning how to make my own web page with using HTML. Im studying in Hillel IT School. Here is some information about me:</p>
+    <div id="hobskil">
+        <div class="Hobbies">
+            <h2 id="hobbiesheader">My hobbies:</h2>
+            <ul>
+                <li>Hunting</li>
+                <li>Playing a guitar</li>
+                <li>Programming</li>
+                <li>Sports (Mixed Martial Arts)</li>
+            </ul>
+        </div>
+        <div class="Skills">
+            <h2 id="skillsheader">My skills:</h2>
+            <ol>
+                <li>Programming with C, C++, C#, HTML</li>
+                <li>Basic knowledge of Git</li>
+                <li>Knowledge of testing theory</li>
+                <li>Testing of Web applications</li>
+                <li>Writing of testing documentation</li>
+            </ol>
+        </div>
     </div>
-    <div id="Skills">
-        <h2>My skills:</h2>
-        <ol>
-            <li>Programming with C, C++, C#, HTML</li>
-            <li>Basic knowledge of Git</li>
-            <li>Knowledge of testing theory</li>
-            <li>Testing of Web applications</li>
-            <li>Writing of testing documentation</li>
-        </ol>
+    <div class="buttons">
+        <div id="but1">
+            <a href="Pages/Contacts.html"><h2>Contacts</h2></a>
+        </div>
+        <div id="but2">
+            <a href="Pages/Gallery.html"><h2>Gallery</h2></a>
+        </div>
     </div>
-    <a href="Pages/Contacts.html"><h2>Contacts</h2></a>
-    <a href="Pages/Gallery.html"><h2>Gallery</h2></a>
 </body>
 </html>
